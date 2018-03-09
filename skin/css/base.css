@@ -1,0 +1,98 @@
+/**
+ * Copyright lanru.cn
+ */
+
+/* ====================
+     公共样式
+==================== */
+body{ font-size:12px;font-family:"微软雅黑";  line-height:150%; margin:0px; padding:0px;}
+
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,form,img,p{
+    margin:0; padding:0; border:none; list-style-type:none;
+}
+.block{
+    width:1200px; height:auto; margin: 0 auto;
+}
+a{ text-decoration:none; color:#333333}
+.fl{float:left;}
+.fr{float:right; white-space:nowrap}
+.tl{ text-align:left;}
+.tc{ text-align:center;}
+.tr{ text-align:right;}
+.dis{display:block;}
+.inline{display:inline;}
+.none{display:none;}
+.clearfix:after{
+    content:"."; display:block; height:0; clear:both;
+    visibility:hidden;
+}
+*html .clearfix{
+    height:1%;
+}
+*+html .clearfix{
+    height:1%;
+}
+/*英文强制换行*/
+.word{word-break:break-all;}
+
+.margin-center{margin: 0 auto;}
+.container{width:1230px;}
+.mt50{
+    margin-top: 50px;
+}
+.mb50{margin-bottom: 50px;}
+
+
+#page_bar{
+    width: 78px;
+    height: 248px;
+    border: 1px solid #f6f6f6;
+    position: fixed;
+    top:200px;
+    left: auto;
+    visibility: hidden;
+    overflow: hidden;
+}
+#page_bar a.bar_fav, #page_bar a.bar_online,#page_bar a.bar_weixin,#page_bar a.bar_gotop, #page_bar span{
+    display: block;
+    height: 20px;
+    width: 78px;
+    background-color: #fff;
+    text-align: center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #f6f6f6;
+    padding-top: 30px;
+}
+#page_bar .bar_car{
+    background-image: url("../images/bar.car.png");
+    background-position: center 7px;
+}
+#page_bar .bar_car em{
+    color: #fd0000;
+}
+#page_bar a.bar_fav{
+    background-image: url("../images/bar.fav.png");
+    background-position: center 6px;
+}
+#page_bar a.bar_online{
+    background-image: url("../images/bar.online.png");
+    background-position: center 9px;
+}
+#page_bar a.bar_weixin{
+    background-image: url("../images/bar.weixin.png");
+    background-position: center 12px;
+    padding-top: 31px;
+}
+#page_bar a.bar_gotop{
+    background-image: url("../images/bar.gotop.png");
+    border-bottom: 0;
+    background-position: center center;
+    text-indent: -99999px;
+}
+
+#page_bar a:hover{
+    filter:alpha(opacity=80);
+    -moz-opacity:0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+}

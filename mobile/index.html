@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <title>首页</title>
+    <link rel="stylesheet" href="../skin/wap/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../skin/wap/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="../skin/wap/main.css">
+    <script src="../skin/wap/bootstrap/js/jquery-1.4.2.min.js"></script>
+    <script src="../skin/wap/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../skin/wap/rem.min.js"></script>
+    <script src="../skin/wap/swiper-3.4.2.jquery.min.js"></script>
+</head>
+<body>
+<div class="container-fluid header">
+    <div class="pull-left logo">
+        <a href="#"><img src="../skin/wap/images/logo.png" alt=""></a>
+    </div>
+    <div class="pull-left form-search">
+        <form action="#">
+            <input type="text" placeholder="输入要查询的商品名称" class="form-control" name="keyword" />
+        </form>
+    </div>
+    <div class="pull-right nav-menu">
+        <span></span>
+    </div>
+</div>
+
+<div class="swiper-container container-fluid">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><a href="#"><img src="../skin/wap/images/banner.jpg" alt=""></a></div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'horizontal',
+        loop: true,
+        autoplay : 5000,
+        pagination: '.swiper-pagination',
+    })
+</script>
+
+<div class="container-fluid sort-menu">
+    <ul>
+        <li class="sort1"><a href="#">分类</a></li>
+        <li class="sort2"><a href="#">手串</a></li>
+        <li class="sort3"><a href="#">把件</a></li>
+        <li class="sort4"><a href="#">木料</a></li>
+        <li class="sort5"><a href="#">工具</a></li>
+    </ul>
+</div>
+
+<div class="container-fluid h20"></div>
+
+<div class="container-fluid time-buy">
+    <h3>限时购 <span>00:02:12</span></h3>
+    <ul>
+        <li style="background-image: url(../skin/wap/images/time-buy.01.jpg)">
+            <a href="#">太行崖柏把件</a>
+            <span>&yen;1239.00</span>
+        </li>
+        <li style="background-image: url(../skin/wap/images/time-buy.02.jpg)">
+            <a href="#">太行崖柏把件</a>
+            <span>&yen;1239.00</span>
+        </li>
+        <li style="background-image: url(../skin/wap/images/time-buy.03.jpg)">
+            <a href="#">太行崖柏把件</a>
+            <span>&yen;1239.00</span>
+        </li>
+    </ul>
+</div>
+<div class="container-fluid h20"></div>
+<div class="container-fluid cuxiao">
+    <h3>促销活动</h3>
+    <ul>
+        <li><a href="#"><img src="../skin/wap/images/cu.01.jpg" alt=""></a></li>
+        <li><a href="#"><img src="../skin/wap/images/cu.02.jpg" alt=""></a></li>
+        <li><a href="#"><img src="../skin/wap/images/cu.03.jpg" alt=""></a></li>
+        <li><a href="#"><img src="../skin/wap/images/cu.04.jpg" alt=""></a></li>
+    </ul>
+</div>
+<div class="container-fluid h20 mt30 mb25"></div>
+
+<div class="container-fluid column">
+    <h3>
+        <a href="#" class="pull-left">推荐手串</a>
+        <a href="#" class="pull-right">查看更多</a>
+    </h3>
+
+    <ul>
+        <li>
+            <div class="thumb">
+                <a href="#"><img src="../skin/wap/images/ad.jpg" alt=""></a>
+                <i class="cu"></i>
+            </div>
+            <div class="price">&yen;100.00</div>
+            <div class="title">
+                <a href="#">印度小叶紫檀手串2.0老料顺纹满 金星檀木佛珠</a>
+            </div>
+        </li>
+        <li>
+            <div class="thumb">
+                <a href="#"><img src="../skin/wap/images/ad1.jpg" alt=""></a>
+            </div>
+            <div class="price">&yen;100.00</div>
+            <div class="title">
+                <a href="#">印度小叶紫檀手串2.0老料顺纹满 金星檀木佛珠</a>
+            </div>
+        </li>
+        <li>
+            <div class="thumb">
+                <a href="#"><img src="../skin/wap/images/ad.jpg" alt=""></a>
+            </div>
+            <div class="price">&yen;100.00</div>
+            <div class="title">
+                <a href="#">印度小叶紫檀手串2.0老料顺纹满 金星檀木佛珠</a>
+            </div>
+        </li>
+        <li>
+            <div class="thumb">
+                <a href="#"><img src="../skin/wap/images/ad1.jpg" alt=""></a>
+                <i class="jian"></i>
+            </div>
+            <div class="price">&yen;100.00</div>
+            <div class="title">
+                <a href="#">印度小叶紫檀手串2.0老料顺纹满 金星檀木佛珠</a>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="container-fluid h20 mt30 mb25"></div>
+<div class="container-fluid column">
+    <h3>
+        <a href="#" class="pull-left">推荐把玩</a>
+        <a href="#" class="pull-right">查看更多</a>
+    </h3>
+
+    <ul>
+        <li>
+            <div class="thumb">
+                <a href="#"><img src="../skin/wap/images/ad.jpg" alt=""></a>
+                <i class="cu"></i>
+            </div>
+            <div class="price">&yen;100.00</div>
+            <div class="title">
+                <a href="#">印度小叶紫檀手串2.0老料顺纹满 金星檀木佛珠</a>
+            </div>
+        </li>
+        <li>
+            <div class="thumb">
+                <a href="#"><img src="../skin/wap/images/ad1.jpg" alt=""></a>
+            </div>
+            <div class="price">&yen;100.00</div>
+            <div class="title">
+                <a href="#">印度小叶紫檀手串2.0老料顺纹满 金星檀木佛珠</a>
+            </div>
+        </li>
+        <li>
+            <div class="thumb">
+                <a href="#"><img src="../skin/wap/images/ad.jpg" alt=""></a>
+            </div>
+            <div class="price">&yen;100.00</div>
+            <div class="title">
+                <a href="#">印度小叶紫檀手串2.0老料顺纹满 金星檀木佛珠</a>
+            </div>
+        </li>
+        <li>
+            <div class="thumb">
+                <a href="#"><img src="../skin/wap/images/ad1.jpg" alt=""></a>
+                <i class="jian"></i>
+            </div>
+            <div class="price">&yen;100.00</div>
+            <div class="title">
+                <a href="#">印度小叶紫檀手串2.0老料顺纹满 金星檀木佛珠</a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+
+<div class="container-fluid navbar  def-navbar">
+    <ul>
+        <li class="index"><a href="#">首页</a></li>
+        <li class="sort"><a href="#">分类</a></li>
+        <li class="cart"><a href="#">购物车</a></li>
+        <li class="user"><a href="#">我的</a></li>
+    </ul>
+</div>
+
+<script src="../skin/wap/main.js"></script>
+</body>
+</html>
